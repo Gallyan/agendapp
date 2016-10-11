@@ -2,6 +2,7 @@
 
 body{font-family: "Ubuntu-Light", sans-serif}
 .label {font-family: arial, sans-serif}
+.entete {line-height: 2.2em; font-size: 4em; font-weight: bold;}
 
 #nouvelEvt{display:none;}
 #detailEvt{display:none;}
@@ -12,7 +13,7 @@ tr.regional td strong{}
 tr.national td strong{}
 tr.international td strong{}
 tr.provisoire.international *,tr.provisoire.national *,tr.provisoire.regional *{}
-.header .span3 img{float:right; margin-right: -25px;}
+.header .span3 img{float:right;}
 
 #ouvrircomplement:hover{cursor: pointer;}
 #ouvrirreco:hover{cursor: pointer;}

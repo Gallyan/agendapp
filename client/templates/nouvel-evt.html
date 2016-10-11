@@ -34,12 +34,12 @@
                         <div class="controls">
                             <div class="btn-group" data-toggle="buttons-radio" name='statut' id='statut' data-toggle-name='statut' data-value='{{evenement.statut}}'>
                                 <button type="button" class="bspopover btn btn-small{{#unless evenement.statut}} active{{/unless}}" data-value="provisoire" 
-                                        data-placement="bottom" title="En phase de conception" data-content="Les informations fondamentales (date, lieu) sont en attente de validation. Il est trop tôt pour que les participants prennent leurs billets de train.">
+                                        data-placement="bottom" title="En phase de conception" data-content="Les informations fondamentales (date, lieu) sont en attente de validation. Il est trop tôt pour que les participants prennent leurs réservations.">
                                     {{iconify "provisoire"}}
                                     Provisoire
                                 </button>
                                 <button type="button" class="bspopover btn btn-small" data-value="definitif"
-                                        data-placement="top" title="Evénement confirmé" data-content="Les paramètres fondamentaux (date,lieu) sont fixés. Il peut y avoir des enrichissements mais les participants peuvent prendre leurs billets d'avion.">
+                                        data-placement="top" title="Evénement confirmé" data-content="Les paramètres fondamentaux (date,lieu) sont fixés. Il peut y avoir des enrichissements mais les participants peuvent prendre leurs réservations.">
                                     {{iconify "definitif"}}
                                     Définitif
                                 </button>

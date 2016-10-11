@@ -9,14 +9,14 @@ envoiMailAdmin = function(evt){
             + "'" + evt.nom + "' sur l'application Agend'app. Voici le lien qui vous permettra de le modifier par la suite :\n"
             + urlConfirm + "\n\n"
             + "NB:Il est nécessaire de cliquer au moins une fois pour valider l'événement."
-            + "Merci d'avoir utilisé Agend'app ! (ne répondez pas à ce message, il a été envoyé automatiquement. Pour tout contact, merci d'envoyer un mail à webmaster@cnccb.net"
-            + "\n\n L'équipe Agend'App - CNCCB";
+            + "Merci d'avoir utilisé Agend'app ! (ne répondez pas à ce message, il a été envoyé automatiquement. Pour tout contact, merci d'envoyer un mail à webmaster@acbbtri.org"
+            + "\n\n L'équipe Agend'App - ACBB Triathlon";
 
     //envoi de l'email
     try {
         Email.send({
             to: evt.admin,
-            from: "webmaster@cnccb.net",
+            from: "webmaster@acbbtri.org",
             subject: "[Agend'app] Administration de : " + evt.nom + "",
             text: message
         });
@@ -31,7 +31,7 @@ envoiMailAdmin = function(evt){
 
 
 /**
-twitte l'evt sur le compte twitter @cnncb
+twitte l'evt sur le compte twitter @acbbtriathlon
 */
 evtTwit = function(idEvt, evt){
         var T = new TwitMaker({
